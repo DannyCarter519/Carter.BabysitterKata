@@ -75,6 +75,9 @@ namespace Carter_BabysitterKata
                     //Family A 
                     if (startTime == 5 && endTime == 4){totalPay = 190;}
                     else if (startTime == 5 && endTime == 3){totalPay = 170;}else if (startTime == 5 && endTime == 2){totalPay = 150;}else if (startTime == 5 && endTime == 1){totalPay = 130;}else if (startTime == 5 && endTime == 12){totalPay = 110;}else if (startTime == 5 && endTime == 11){totalPay = 90;}
+                    else if (startTime == 5 && endTime == 10){totalPay = 75;}else if (startTime == 5 && endTime == 9){totalPay = 60;}else if (startTime == 5 && endTime == 8){totalPay = 45;}else if (startTime == 5 && endTime == 7){totalPay = 30;}else if (startTime == 5 && endTime == 6){totalPay = 15;}
+                    else if (startTime == 6 && endTime == 4){totalPay = 175;}else if (startTime == 6 && endTime == 3) {totalPay = 155;}else if (startTime == 6 && endTime == 2){totalPay = 135;}else if (startTime == 6 && endTime == 1){totalPay = 115;}else if (startTime == 6 && endTime == 12){totalPay = 95;}
+                    else if (startTime == 6 && endTime == 11){totalPay = 75;}else if (startTime == 6 && endTime == 10){totalPay = 60;}else if (startTime == 6 && endTime == 9){totalPay = 45;}else if (startTime == 6 && endTime == 8){totalPay = 30;}else if (startTime == 6 && endTime == 7){totalPay = 15;}
                     break; 
                     
                     case "B":
