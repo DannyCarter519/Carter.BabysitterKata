@@ -73,19 +73,35 @@ namespace Carter_BabysitterKata
                 {
                     case "A":
                     //Family A 
+                    if (startTime == 5 && endTime == 4){totalPay = 190;}
+                    else if (startTime == 5 && endTime == 3){totalPay = 170;}else if (startTime == 5 && endTime == 2){totalPay = 150;}else if (startTime == 5 && endTime == 1){totalPay = 130;}else if (startTime == 5 && endTime == 12){totalPay = 110;}else if (startTime == 5 && endTime == 11){totalPay = 90;}
                     break; 
                     
                     case "B":
                     //Family B 
+                    if (startTime == 5 && endTime == 4){totalPay = 140;}
+                    else if (startTime == 5 && endTime == 3){totalPay = 124;}else if (startTime == 5 && endTime == 2){totalPay = 108;}else if (startTime == 5 && endTime == 1){totalPay = 92;}else if (startTime == 5 && endTime == 12){totalPay = 76;}else if (startTime == 5 && endTime == 11){totalPay = 68;}
                     break;
                     
                     case "C":
                     //Family C
+                    if (startTime == 5 && endTime == 4){totalPay = 189;}
+                    else if (startTime == 5 && endTime == 3){totalPay = 174;}else if (startTime == 5 && endTime == 2){totalPay = 159;}else if (startTime == 5 && endTime == 1){totalPay = 144;}else if (startTime == 5 && endTime == 12){totalPay = 129;}else if (startTime == 5 && endTime == 11){totalPay = 114;}
                     break;
                     
                     default:
                         break;
                 }
+                //Get input
+
+                //Change text color
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+
+                //Give users total pay
+                Console.WriteLine("Your total pay for tonight is $" + totalPay);
+
+                //Reset text color
+                Console.ResetColor();
 
             }
 
