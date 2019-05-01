@@ -52,6 +52,12 @@ namespace Carter_BabysitterKata
                 //User enters end time
                 Console.WriteLine("Enter End Time (from 6 - 4):");
                 inputEndTime = Console.ReadLine();
+                //End time validation
+                while (!(Int32.TryParse(inputEndTime, out endTime)))
+                {
+                    Console.WriteLine("Please enter a valid END time: ");
+                    inputEndTime = Console.ReadLine();
+                }
 
 
 
