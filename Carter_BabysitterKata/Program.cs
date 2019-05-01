@@ -49,6 +49,9 @@ namespace Carter_BabysitterKata
                     inputStartTime = Console.ReadLine();
                     startTime = Int32.Parse(inputStartTime);
                 }
+                //User enters end time
+                Console.WriteLine("Enter End Time (from 6 - 4):");
+                inputEndTime = Console.ReadLine();
 
 
 
