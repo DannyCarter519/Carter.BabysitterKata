@@ -102,6 +102,9 @@ namespace Carter_BabysitterKata
 
                 //Reset text color
                 Console.ResetColor();
+                
+                //Change text color
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
 
             }
 
