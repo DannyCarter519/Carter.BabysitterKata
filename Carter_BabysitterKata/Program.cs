@@ -6,9 +6,14 @@ namespace Carter_BabysitterKata
     {
         public static void Main(string[] args)
         {
-            //Set app variables
+            //Set app all variables
             string inputStartTime = "";
+            string inputEndTime = "";
+            int startTime = 0;
+            int endTime = 0;
             string family = "";
+            
+                
 
             while (true)
             {
@@ -24,9 +29,19 @@ namespace Carter_BabysitterKata
                     Console.WriteLine("Please enter a valid family letter. Enter Family Name (A, B or C): ");
                     family = Console.ReadLine();
                 }
+                //User enters start time
+                Console.WriteLine("Enter Start Time (from 5 - 3):");
+                inputStartTime = Console.ReadLine();
                 
-                
-                
+                //Start time validation
+                while (!(Int32.TryParse(inputStartTime, out startTime)))
+                {
+                    Console.WriteLine("Please enter a valid START time: ");
+                    inputStartTime = Console.ReadLine();
+                }
+
+
+
 
             }
 
