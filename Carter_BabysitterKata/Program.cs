@@ -12,6 +12,8 @@ namespace Carter_BabysitterKata
             int startTime = 0;
             int endTime = 0;
             string family = "";
+            int totalPay = 0;
+                
             
                 
 
@@ -66,8 +68,11 @@ namespace Carter_BabysitterKata
                     inputEndTime = Console.ReadLine();
                     endTime = Int32.Parse(inputEndTime);
                 }
-
-
+                //Choosing a switch statement to test against the diff. start & end times with family A, B or C to get totalPay
+                switch (family)
+                {
+                    
+                }
 
             }
 
