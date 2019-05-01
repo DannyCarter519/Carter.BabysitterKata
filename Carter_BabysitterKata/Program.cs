@@ -45,7 +45,9 @@ namespace Carter_BabysitterKata
                 //Using 1-12, because time constraints are 5,6,7,8,9,10,11,12,1,2,3&4
                 while (startTime == 4 || (!(startTime >= 1 && startTime <= 12)))
                 {
-                    
+                    Console.WriteLine("Please enter a valid START time: ");
+                    inputStartTime = Console.ReadLine();
+                    startTime = Int32.Parse(inputStartTime);
                 }
 
 
