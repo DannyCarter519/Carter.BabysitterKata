@@ -129,6 +129,28 @@ namespace Carter_BabysitterKata
                 
                 //Change text color
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
+                
+                //Ask to calculate a new night
+                Console.WriteLine("Would you like to calculate another night or work with a different family [Y or N]");
+
+                //Reset text color
+                Console.ResetColor();
+
+                //Get answer
+                string answer = Console.ReadLine().ToUpper();
+
+                if (answer == "Y")
+                {
+                    continue;
+                }
+                else if (answer == "N")
+                {
+                    return;
+                }
+                else
+                {
+                    return;
+                }
 
             }
 
