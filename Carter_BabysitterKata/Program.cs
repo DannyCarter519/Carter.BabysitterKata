@@ -71,7 +71,20 @@ namespace Carter_BabysitterKata
                 //Choosing a switch statement to test against the diff. start & end times with family A, B or C to get totalPay
                 switch (family)
                 {
+                    case "A":
+                    //Family A 
+                    break; 
                     
+                    case "B":
+                    //Family B 
+                    break;
+                    
+                    case "C":
+                    //Family C
+                    break;
+                    
+                    default:
+                        break;
                 }
 
             }
