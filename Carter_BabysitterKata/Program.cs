@@ -30,7 +30,7 @@ namespace Carter_BabysitterKata
                     family = Console.ReadLine();
                 }
                 //User enters start time
-                Console.WriteLine("Enter Start Time (from 5 - 3):");
+                Console.WriteLine("Enter Start Time (from 5pm - 3am):");
                 inputStartTime = Console.ReadLine();
                 
                 //Start time validation
@@ -50,13 +50,21 @@ namespace Carter_BabysitterKata
                     startTime = Int32.Parse(inputStartTime);
                 }
                 //User enters end time
-                Console.WriteLine("Enter End Time (from 6 - 4):");
+                Console.WriteLine("Enter End Time (from 6pm - 4am):");
                 inputEndTime = Console.ReadLine();
                 //End time validation
                 while (!(Int32.TryParse(inputEndTime, out endTime)))
                 {
                     Console.WriteLine("Please enter a valid END time: ");
                     inputEndTime = Console.ReadLine();
+                }
+
+                endTime = Int32.Parse(inputEndTime);
+                while (endTime == 5 || (!(endTime >= 1 && endTime <= 12)))
+                {
+                    Console.WriteLine("Please enter a valid END time: ");
+                    inputEndTime = Console.ReadLine();
+                    endTime = Int32.Parse(inputEndTime);
                 }
 
 
