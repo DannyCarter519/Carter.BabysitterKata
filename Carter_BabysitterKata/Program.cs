@@ -90,10 +90,22 @@ namespace Carter_BabysitterKata
                         break;
                     
                     case "B":
-                    //Family B 
-                    if (startTime == 5 && endTime == 4){totalPay = 140;}
-                    else if (startTime == 5 && endTime == 3){totalPay = 124;}else if (startTime == 5 && endTime == 2){totalPay = 108;}else if (startTime == 5 && endTime == 1){totalPay = 92;}else if (startTime == 5 && endTime == 12){totalPay = 76;}else if (startTime == 5 && endTime == 11){totalPay = 68;}
-                    break;
+                        //Family B 
+                        if (startTime == 5 && endTime == 4){totalPay = 140;}
+                        else if (startTime == 5 && endTime == 3){totalPay = 124;}else if (startTime == 5 && endTime == 2){totalPay = 108;}else if (startTime == 5 && endTime == 1){totalPay = 92;}else if (startTime == 5 && endTime == 12){totalPay = 76;}else if (startTime == 5 && endTime == 11){totalPay = 68;}
+                        else if (startTime == 5 && endTime == 10){totalPay = 60;}else if (startTime == 5 && endTime == 9){totalPay = 48;}else if (startTime == 5 && endTime == 8){totalPay = 36;}else if (startTime == 5 && endTime == 7){totalPay = 24;}else if (startTime == 5 && endTime == 6){totalPay = 12;}
+                        else if (startTime == 6 && endTime == 4){totalPay = 128;}else if (startTime == 6 && endTime == 3){totalPay = 112;}else if (startTime == 6 && endTime == 2){totalPay = 96;}else if (startTime == 6 && endTime == 1){totalPay = 80;}else if (startTime == 6 && endTime == 12){totalPay = 64;}
+                        else if (startTime == 6 && endTime == 11){totalPay = 56;}else if (startTime == 6 && endTime == 10){totalPay = 48;}else if (startTime == 6 && endTime == 9){totalPay = 36;}else if (startTime == 6 && endTime == 8){totalPay = 24;}else if (startTime == 6 && endTime == 7){totalPay = 12;}
+                        else if (startTime == 7 && endTime == 4){totalPay = 116;}else if (startTime == 7 && endTime == 3){totalPay = 100;}else if (startTime == 7 && endTime == 2){totalPay = 84;}else if (startTime == 7 && endTime == 1){totalPay = 68;}else if (startTime == 7 && endTime == 12){totalPay = 52;}
+                        else if (startTime == 7 && endTime == 11){totalPay = 44;}else if (startTime == 7 && endTime == 10){totalPay = 36;}else if (startTime == 7 && endTime == 9){totalPay = 24;}else if (startTime == 7 && endTime == 8){totalPay = 12;}else if (startTime == 8 && endTime == 4){totalPay = 104;}
+                        else if (startTime == 8 && endTime == 3){totalPay = 88;}else if (startTime == 8 && endTime == 2){totalPay = 72;}else if (startTime == 8 && endTime == 1){totalPay = 56;}else if (startTime == 8 && endTime == 12){totalPay = 40;}else if (startTime == 8 && endTime == 11){totalPay = 32;}
+                        else if (startTime == 8 && endTime == 10){totalPay = 24;}else if (startTime == 8 && endTime == 9){totalPay = 12;}else if (startTime == 9 && endTime == 4){totalPay = 92;}else if (startTime == 9 && endTime == 3){totalPay = 76;}else if (startTime == 9 && endTime == 2){totalPay = 60;}
+                        else if (startTime == 9 && endTime == 1){totalPay = 44;}else if (startTime == 9 && endTime == 12){totalPay = 28;}else if (startTime == 9 && endTime == 11){totalPay = 20;}else if (startTime == 9 && endTime == 10){totalPay = 12;}else if (startTime == 10 && endTime == 4){totalPay = 80;}
+                        else if (startTime == 10 && endTime == 3){totalPay = 64;}else if (startTime == 10 && endTime == 2){totalPay = 48;}else if (startTime == 10 && endTime == 1){totalPay = 32;}else if (startTime == 10 && endTime == 12){totalPay = 16;}else if (startTime == 10 && endTime == 11){totalPay = 8;}
+                        else if (startTime == 11 && endTime == 4){totalPay = 72;}else if (startTime == 11 && endTime == 3){totalPay = 56;}else if (startTime == 11 && endTime == 2){totalPay = 40;}else if (startTime == 11 && endTime == 1){totalPay = 24;}else if (startTime == 11 && endTime == 12){totalPay = 8;}
+                        else if (startTime == 12 && endTime == 4){totalPay = 64;}else if (startTime == 12 && endTime == 3) {totalPay = 48; }else if (startTime == 12 && endTime == 2){totalPay = 32;}else if (startTime == 12 && endTime == 1){totalPay = 16;}else if (startTime == 1 && endTime == 4){totalPay = 48;}
+                        else if (startTime == 1 && endTime == 3){totalPay = 32;}else if (startTime == 1 && endTime == 2){totalPay = 16;}else if (startTime == 2 && endTime == 4){totalPay = 32;}else if (startTime == 2 && endTime == 3){totalPay = 16; }else if (startTime == 3 && endTime == 4){totalPay = 16;}
+                        break;
                     
                     case "C":
                     //Family C
